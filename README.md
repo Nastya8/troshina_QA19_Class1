@@ -1,0 +1,1 @@
+# troshina_QA19_Class1
