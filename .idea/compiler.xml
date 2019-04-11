@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="QA19-wikipedia-web-tests_main" target="1.8" />
+      <module name="QA19-wikipedia-web-tests_test" target="1.8" />
+      <module name="wiki-tests1_main" target="1.8" />
+      <module name="wiki-tests1_test" target="1.8" />
+      <module name="wiki-tests_main" target="1.8" />
+      <module name="wiki-tests_test" target="1.8" />
+      <module name="wikipedia-tests1_main" target="1.8" />
+      <module name="wikipedia-tests1_test" target="1.8" />
+      <module name="wikipedia-web-tests_main" target="1.8" />
+      <module name="wikipedia-web-tests_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
