@@ -17,8 +17,6 @@ public class TestTest {
         wd.get("https://wikipedia.org");
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         //click Russia button
-        //wd.findElement(By.linkText("//ru.wikipedia.org/")).click();
-        //wd.findElement(By.className("central-featured-lang lang1")).click();
         wd.findElement(By.id("js-link-box-ru")).click();
         //click to come in
         wd.findElement(By.id("pt-login")).click();
@@ -30,9 +28,9 @@ public class TestTest {
         wd.findElement(By.name("wpPassword")).click();
         wd.findElement(By.name("wpPassword")).clear();
         wd.findElement(By.name("wpPassword")).sendKeys("korsarushka");
-
+        //get in
         wd.findElement(By.id("wpLoginAttempt")).click();
-
+        //bye-bye!
         wd.quit();
 
 
