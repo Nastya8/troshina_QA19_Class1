@@ -11,7 +11,7 @@ public class WikiTests {
     public void openSite(){
         wd = new ChromeDriver();
         wd.navigate().to("https://www.ebay.com/");
-        
+
         String actual = wd.getCurrentUrl();
         Assert.assertEquals(actual,"https://www.ebay.com/" );
         wd.quit();
